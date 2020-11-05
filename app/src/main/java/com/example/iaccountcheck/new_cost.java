@@ -38,7 +38,7 @@ public class new_cost extends AppCompatActivity {
         String moneyStr = et_cost_money.getText().toString().trim();
         String dateStr = dp_cost_date.getYear() + "-" + (dp_cost_date.getMonth() + 1) + "-"
                 + dp_cost_date.getDayOfMonth();//这里getMonth会比当前月份少一个月，所以要+1
-        if ("".equals(moneyStr)) {//可以不填写Title但是不能不填金额
+        if ("".equals(moneyStr)) {//可以不填Title但是不能不填金额
             Toast toast = Toast.makeText(this, "请填写金额", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();

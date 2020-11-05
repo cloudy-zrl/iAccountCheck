@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:hint="Cost Title"
+        android:hint="消费项目"
         android:textColor="#ffbd27"
         />
 
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:hint="Cost Money"
+        android:hint="消费金额"
         android:textColor="#ffbd27"
         />
 
@@ -42,8 +42,8 @@
         android:layout_height="wrap_content"
         android:text="确认"
         android:textSize="20dp"
-        android:textColor="#333333"
-        android:background="#ffbd27"
+        android:textColor="#FFFFFF"
+        android:background="#0040FF"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         />
